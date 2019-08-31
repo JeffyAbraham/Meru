@@ -36,7 +36,11 @@ This is a Socail networking application developed using android studio with Fire
 
 * #### Authentication
   ##### Signup:
-  ![alt text](Signup.gif)
+  <img src="Signup.gif" width="70" height="255">
+ 
+  
+  
+  
   when the app first launches its shows the Log in screen , if the user dosent have an account he can register himself.The signup is done using FireBase Auth.The user can provide his email address and password once it has been provided user can upload his profile picture .The profile picture is stored in Firebase storage and the link to it is stored in field Userdata feild with in the Firebase Database
    ##### Login:
    For the purpose of Log in user have 2 option either use Facebook Login or login with the password and email address used while signing in .When the user login is successful the profile image of the user along with all the necessary data is loaded and displayed in the home screen
