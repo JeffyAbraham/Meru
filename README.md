@@ -64,25 +64,25 @@ This is a Socail networking application developed using android studio with Fire
    Group page has a group cover image ,Buttons for uploading the cover image,Horizontal recycler view which displays list of all the events particular group,Location of the group and the organizer.
    It also has a spinner which on click allows the users to host an event
    
-   ###### GroupPageUI:
+   #### GroupPageUI:
    
     <img src="create_groupui[1].gif" width="150" height="255">
    Group page has a group cover image ,Buttons for uploading the cover image,Horizontal recycler view which displays list of all the events particular group,Location of the group and the organizer.
    It also has a spinner which on click allows the users to host an event.
    
-   ###### HostEventUI:
+   #### HostEventUI:
    
     <img src=" hostevnt.gif" width="150" height="255">
   
    The host event UI has textboxes which allows users to set date ,have an event name, and a Google places autocomplete.
    
-   ##### SearchUI:
+   #### SearchUI:
    
     <img src="search[1] (1).gif" width="150" height="255">
    when the user clicks the search button it opens up an activity it displays all the events available and users can click on it to join
    that event(Explain further in main featurs)
    
-   ##### MessageUI:
+   #### MessageUI:
   
    The message Ui displays list of Users available .The current user can click on the user to whom he want to chat which opens up the chatbox
    
