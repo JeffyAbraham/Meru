@@ -127,43 +127,29 @@ Firebase storage is used to store Images and retrive them.Profile pictures and G
 
 
 ### Dependencies Used
+    implementation 'com.firebaseui:firebase-ui-database:5.0.0'
+    implementation 'com.google.android.material:material:1.0.0-rc01'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.algolia:algoliasearch-android:3.+'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.github.hani-momanii:SuperNova-Emoji:1.1'
+    implementation 'com.android.support:recyclerview-v7'
+    implementation 'com.google.android.libraries.places:places:2.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.android.material:material:1.0.0-rc01'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.facebook.android:facebook-login:[5,6)'
+    implementation 'com.google.firebase:firebase-database:18.0.0'
+    implementation 'com.github.lguipeng:BubbleView:1.0.1'
+    implementation 'com.google.firebase:firebase-auth:18.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-storage:18.1.1'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.5'
 
-Explain what these tests test and why
 
 ```
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
