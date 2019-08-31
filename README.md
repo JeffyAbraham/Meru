@@ -6,15 +6,15 @@ Name : Jeffy Abraham
 
 ## Overview
 This is a Socail networking application developed using android studio with Firebase Realtime database as the backend.
-* User Signup and login with firebase and Facebook profile
-* Users can upload their profile picture
-*Users can create groups by using features like google places autocomplete
-*Users can join the event if they are  a member of the group
-*See the location of event on Map(Google Maps Api)
-*Private and public views .i.e only group administartor has the permission to host event within that group
-*Group Adminstartor can update the cover picture of a group
-*Search for events and other users (Real time search using Algolia)
-*Chat with other users
+  * User Signup and login with firebase and Facebook profile
+  * Users can upload their profile picture
+  *Users can create groups by using features like google places autocomplete
+  *Users can join the event if they are  a member of the group
+  *See the location of event on Map(Google Maps Api)
+  *Private and public views .i.e only group administartor has the permission to host event within that group
+  *Group Adminstartor can update the cover picture of a group
+  *Search for events and other users (Real time search using Algolia)
+  *Chat with other users
 
 
 
