@@ -72,7 +72,7 @@ This is a Socail networking application developed using android studio with Fire
    
    ###### HostEventUI:
    
-    <img src=" host_eventui[1] (1).gif" width="150" height="255">
+    <img src=" hostevnt.gif" width="150" height="255">
   
    The host event UI has textboxes which allows users to set date ,have an event name, and a Google places autocomplete.
    
