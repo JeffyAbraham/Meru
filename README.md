@@ -83,7 +83,7 @@ This is a Socail networking application developed using android studio with Fire
    that event(Explain further in main featurs)
    
    #### MessageUI:
-   
+    <img src="Friend.gif" width="150" height="255">
   
    The message Ui displays list of Users available .The current user can click on the user to whom he want to chat which opens up the chatbox
    
