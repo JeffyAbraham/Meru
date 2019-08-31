@@ -28,7 +28,7 @@ This is a Socail networking application developed using android studio with Fire
 
 ### Architecture
 
-
+![alt text](Architecture.png)
 
 ```
 Give the example
