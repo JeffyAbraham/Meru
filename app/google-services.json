@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "629330057043",
+    "firebase_url": "https://meru-c0c0a.firebaseio.com",
+    "project_id": "meru-c0c0a",
+    "storage_bucket": "meru-c0c0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629330057043:android:59bcb096760b0077",
+        "android_client_info": {
+          "package_name": "com.example.meru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629330057043-abl929ri1na6mhbqh49o933kt3gb55i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meru",
+            "certificate_hash": "c592b500f482dee732fd49ca15eb40c9dd5cfad2"
+          }
+        },
+        {
+          "client_id": "629330057043-2q79s4gi1e8phsjbj5jpl1eua40revpr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIS2Sw6ZwFdcG_8S3VwLNpP2KbAHO-JFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629330057043-2q79s4gi1e8phsjbj5jpl1eua40revpr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+
+
+    >
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+            <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+
+                <TextView
+                    android:id="@+id/Setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:clickable="true"
+                    android:background="@drawable/ic_share_black_24dp"
+                    android:textFontWeight="700"
+                    android:textColor="#FFFF"
+                    android:textSize="25dp" />
+
+                <Spinner
+
+                    android:textSize="10dp"
+                    android:id="@+id/planets_spinner"
+                    android:layout_marginLeft="280dp"
+                    android:visibility="invisible"
+                    android:layout_width="25dp"
+                    android:textColor="#fff"
+                    android:layout_height="35dp"
+                    android:background="@drawable/ic_more_vert_black_24dp"
+                    />
+
+
+            />
+
+             </androidx.appcompat.widget.Toolbar>
+
+
+
+        
+
+        <ImageView
+            android:id="@+id/CoverImage"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="300px"
+            />
+
+
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp">
+
+
+          <Button
+              android:text="Pick Image"
+              android:id="@+id/pickImage"
+              android:layout_width="101dp"
+              android:layout_height="35dp"
+              android:backgroundTint="#000"
+              android:textColor="#fff"
+              android:width="101dp"
+              android:height="35dp"
+              android:visibility="gone"
+              android:textSize="10dp"/>
+          <Button
+              android:id="@+id/uploadImage"
+              android:textColor="#fff"
+              android:layout_width="101dp"
+              android:backgroundTint="#000"
+              android:layout_marginLeft="-5dp"
+              android:visibility="gone"
+              android:text="Upload"
+              android:textSize="10dp"
+              android:layout_height="35dp" />
+
+
+      </LinearLayout>
+
+        <TextView
+        android:id="@+id/GroupNamePage"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:textFontWeight="1000"
+        android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/jo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#000"
+            android:text="JOIN"
+
+
+            android:textColor="#fff" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+             android:text="Events"
+             android:textStyle="bold"
+             android:textColor="#000"
+             android:textSize="20dp"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/EventRecycle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </RelativeLayout>
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Members"
+        android:layout_marginLeft="20dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:paddingTop="10dp"
+        android:layout_width="57dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:src="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-3dp"
+                android:background="@drawable/ic_location_on_black_24dp" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Waterford"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="15dp"
+        android:background="#D3D3D3"
+        />
+    <TextView
+        android:id="@+id/descriptionSingle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textFontWeight="400"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        android:text="Civility vicinity graceful is it at. Improve up at to on mention perhaps raising. Way building not get formerly her peculiar. Up uncommonly prosperous sentiments simplicity acceptance to so. Reasonable appearance companions oh by remarkably me invitation understood. Pursuit elderly ask perhaps all.
+" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginTop="15dp"
+        android:background="#D3D3D3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organizers"
+        android:layout_marginLeft="20dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/organizerImage"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:src="@color/colorPrimary" />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
