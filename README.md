@@ -36,7 +36,7 @@ This is a Socail networking application developed using android studio with Fire
 
 * #### Authentication
   ##### Signup:
-  <img src="Signup.gif" width="70" height="255">
+  <img src="Signup.gif" width="150" height="255">
  
   
   
