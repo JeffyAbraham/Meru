@@ -72,7 +72,7 @@ This is a Socail networking application developed using android studio with Fire
    
    #### HostEventUI:
    
-    <img src=" hostevnt.gif" width="150" height="255">
+    <img src="hostevnt.gif" width="150" height="255">
   
    The host event UI has textboxes which allows users to set date ,have an event name, and a Google places autocomplete.
    
@@ -83,7 +83,7 @@ This is a Socail networking application developed using android studio with Fire
    that event(Explain further in main featurs)
    
    #### MessageUI:
-    <img src=" hostevnt.gif" width="150" height="255">
+   
   
    The message Ui displays list of Users available .The current user can click on the user to whom he want to chat which opens up the chatbox
    
