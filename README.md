@@ -30,21 +30,10 @@ This is a Socail networking application developed using android studio with Fire
 
 ![alt text](Architecture.png)
 
-```
-Give the example
-```
 
-And repeat
+### Application UI Design and Main Features
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+##Authntication
 
 ### Break down into end to end tests
 
