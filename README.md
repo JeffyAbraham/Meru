@@ -33,7 +33,7 @@ This is a Socail networking application developed using android studio with Fire
 
 ### Application UI Design and Main Features
 
-##Authntication
+*###Authentication
 
 ### Break down into end to end tests
 
