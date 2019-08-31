@@ -49,7 +49,7 @@ This is a Socail networking application developed using android studio with Fire
   
  * ##### UI Components:
    #### Bottom Nav Drawer:
-   <img src="bottom_nav.gif" width="150" height="255">
+   <img src="bottom_nav[1].gif" width="150" height="255">
    
    The Homepage features bottom Nav drawer which has some set of icons like searchbutton,Messagebutton,Home button.Each of these button has corresponding activies and fragments attach to it.The bottom nav provides easy switching among components
    #### HomePageUI:
@@ -78,7 +78,7 @@ This is a Socail networking application developed using android studio with Fire
    
    ##### SearchUI:
    
-    <img src="search[1] (1)" width="150" height="255">
+    <img src="search[1] (1).gif" width="150" height="255">
    when the user clicks the search button it opens up an activity it displays all the events available and users can click on it to join
    that event(Explain further in main featurs)
    
