@@ -24,7 +24,7 @@ This is a Socail networking application developed using android studio with Fire
 
 ### Data Model
 
-![alt text][https://raw.githubusercontent.com/JeffyAbraham/Meru/master/_Entity%20Relationship%20Diagram%20Example%20(UML%20Notation).png]
+![alt text(https://raw.githubusercontent.com/JeffyAbraham/Meru/master/_Entity%20Relationship%20Diagram%20Example%20(UML%20Notation).png)
 ```
 Give examples
 ```
