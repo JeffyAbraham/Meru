@@ -22,9 +22,9 @@ This is a Socail networking application developed using android studio with Fire
 
 
 
-### Prerequisites
+### Data Model
 
-What things you need to install the software and how to install them
+https://github.com/JeffyAbraham/Meru/blob/master/_Entity%20Relationship%20Diagram%20Example%20(UML%20Notation).png
 
 ```
 Give examples
