@@ -25,15 +25,10 @@ This is a Socail networking application developed using android studio with Fire
 ### Data Model
 
 ![alt text](er.png)
-```
-Give examples
-```
 
-### Installing
+### Architecture
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
 ```
 Give the example
