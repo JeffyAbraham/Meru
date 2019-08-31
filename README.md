@@ -24,7 +24,7 @@ This is a Socail networking application developed using android studio with Fire
 
 ### Data Model
 
-![alt text(_Entity Relationship Diagram Example (UML Notation).png)
+![alt text](Capture.PNG)
 ```
 Give examples
 ```
