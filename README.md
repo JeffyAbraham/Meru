@@ -89,38 +89,37 @@ This is a Socail networking application developed using android studio with Fire
    The message Ui displays list of Users available .The current user can click on the user to whom he want to chat which opens up the chatbox
    
    
-  
-  
+
 
 ### Main Functionalities
 
-* Private and protected view:
+* #### Private and protected view:
 
 Only the group admin can change the Group cover image and host events.If a user who is not a member of the group tries to join an event then he may to join the group first to have access to the event.
 
 
-* Use of Algolia Search:
+* #### Use of Algolia Search:
 
 Since search in firebase dosen't happen in realtime .i.e entire data is loaded then the data is filtered .This may be true if there are few users using your app but if your app has many users algolia instant search can be used where searching happens in real time.
 For eg whenever a user is created a copy of the user data gets stored in Algolia Database and with the help of algolia dependency along with recyler view the data search data can be retrived and displayed respectively.
 
-* Use of Google Places Auto complete:
+* #### Use of Google Places Auto complete:
 
 Google places Auto complete has been used to search for auto completion of locations
 
-* Use of Google Maps API:
+* #### Use of Google Maps API:
 
 Google Maps api has been used to show the location where the event has been hosted
 
-* Firebase Storage
+* #### Firebase Storage
 
 Firebase storage is used to store Images and retrive them.Profile pictures and Group Cover Images are stored in it.
 
-* Chat Feature
+* #### Chat Feature
  
  Users can chat with each other .This feature is implemented with the help of firebasedatabases On child added function
  
- * Facebook API
+ * #### Facebook API
  
  Facebook API is used for facebook Authentication.It is also used for retriving the Facebook profile picture of the user
 
