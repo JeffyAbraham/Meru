@@ -8,6 +8,7 @@ Name : Jeffy Abraham
 This is a Socail networking application developed using android studio with Firebase Realtime database as the backend.
 
   * User Signup and login with firebase and Facebook profile
+  * Bottom Nav drawer
   * Users can upload their profile picture
   * Users can create groups by using features like google places autocomplete
   * Users can join the event if they are  a member of the group
@@ -34,6 +35,30 @@ This is a Socail networking application developed using android studio with Fire
 ### Application UI Design and Main Features
 
 * #### Authentication
+  ##### Signup:
+  when the app first launches its shows the Log in screen , if the user dosent have an account he can register himself.The signup is done using FireBase Auth.The user can provide his email address and password once it has been provided user can upload his profile picture .The profile picture is stored in Firebase storage and the link to it is stored in field Userdata feild with in the Firebase Database
+   ##### Login:
+   For the purpose of Log in user have 2 option either use Facebook Login or login with the password and email address used while signing in .When the user login is successful the profile image of the user along with all the necessary data is loaded and displayed in the home screen
+  
+ * ##### UI Components:
+   ###### Bottom Nav Drawer:
+   The Homepage features bottom Nav drawer which has some set of icons like searchbutton,Messagebutton,Home button.Each of these button has corresponding activies and fragments attach to it.The bottom nav provides easy switching among components
+   ###### HomePageUI:
+   In home page for displaying various groups a cardview along with recylerview is implemented with in a Fragment.The recylerview implemented is a horizontal recyclerview.The recyler view has an action listner attached to it such that when ever a user clicks on it will take him to the Group page.
+   Th Home page also has Bottom  Tabbed activity, within the tabbed activities are list of all the events joined by the users
+   ###### AddGroupUI:
+   The add group UI has different fields on to which users can enter the group name, Description and a grid recycler view help of which users can tag the  interest or the main theme of the group
+   Group page has a group cover image ,Buttons for uploading the cover image,Horizontal recycler view which displays list of all the events particular group,Location of the group and the organizer.
+   It also has a spinner which on click allows the users to host an event
+   ###### GroupPageUI:
+   Group page has a group cover image ,Buttons for uploading the cover image,Horizontal recycler view which displays list of all the events particular group,Location of the group and the organizer.
+   It also has a spinner which on click allows the users to host an event.
+   ###### HostEventUI:
+   The host event UI has textboxes which allows users to set date ,have an event name, and a Google places autocomplete.
+   
+   
+  
+  
 
 ### Break down into end to end tests
 
