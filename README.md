@@ -24,7 +24,7 @@ This is a Socail networking application developed using android studio with Fire
 
 ### Data Model
 
-![alt text](Capture.PNG)
+![alt text](er.PNG)
 ```
 Give examples
 ```
