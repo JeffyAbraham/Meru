@@ -35,35 +35,45 @@ This is a Socail networking application developed using android studio with Fire
 ### Application UI Design and Main Features
 
 * #### Authentication
-  ##### Signup:
+  #### Signup:
   <img src="Signup.gif" width="150" height="255">
  
   
   
   
   when the app first launches its shows the Log in screen , if the user dosent have an account he can register himself.The signup is done using FireBase Auth.The user can provide his email address and password once it has been provided user can upload his profile picture .The profile picture is stored in Firebase storage and the link to it is stored in field Userdata feild with in the Firebase Database
-   ##### Login:
+   #### Login:
+   <img src="Login.gif" width="150" height="255">
+   
    For the purpose of Log in user have 2 option either use Facebook Login or login with the password and email address used while signing in .When the user login is successful the profile image of the user along with all the necessary data is loaded and displayed in the home screen
   
  * ##### UI Components:
    ###### Bottom Nav Drawer:
+   <img src="bottom_nav.gif" width="150" height="255">
    The Homepage features bottom Nav drawer which has some set of icons like searchbutton,Messagebutton,Home button.Each of these button has corresponding activies and fragments attach to it.The bottom nav provides easy switching among components
    ###### HomePageUI:
+   <img src="home_ui[1].gif" width="150" height="255">
    In home page for displaying various groups a cardview along with recylerview is implemented with in a Fragment.The recylerview implemented is a horizontal recyclerview.The recyler view has an action listner attached to it such that when ever a user clicks on it will take him to the Group page.
    Th Home page also has Bottom  Tabbed activity, within the tabbed activities are list of all the events joined by the users
    ###### AddGroupUI:
+    <img src="create_groupui[1].gif" width="150" height="255">
    The add group UI has different fields on to which users can enter the group name, Description and a grid recycler view help of which users can tag the  interest or the main theme of the group
    Group page has a group cover image ,Buttons for uploading the cover image,Horizontal recycler view which displays list of all the events particular group,Location of the group and the organizer.
    It also has a spinner which on click allows the users to host an event
    ###### GroupPageUI:
+    <img src="create_groupui[1].gif" width="150" height="255">
    Group page has a group cover image ,Buttons for uploading the cover image,Horizontal recycler view which displays list of all the events particular group,Location of the group and the organizer.
    It also has a spinner which on click allows the users to host an event.
    ###### HostEventUI:
+    <img src=" host_eventui[1] (1).gif" width="150" height="255">
+  
    The host event UI has textboxes which allows users to set date ,have an event name, and a Google places autocomplete.
    ##### SearchUI:
+    <img src="search[1] (1)" width="150" height="255">
    when the user clicks the search button it opens up an activity it displays all the events available and users can click on it to join
    that event(Explain further in main featurs)
    ##### MessageUI:
+  
    The message Ui displays list of Users available .The current user can click on the user to whom he want to chat which opens up the chatbox
    
    
