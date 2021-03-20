@@ -5,7 +5,7 @@ Name : Jeffy Abraham
 # Meru 
 
 ## Overview
-This is a Social networking application developed using android studio with Firebase Realtime database as the backend.
+A Social networking application developed using android studio with Firebase Realtime database as the backend.
 Some of the features of this app are
 
   * User Signup and login with firebase and Facebook profile
